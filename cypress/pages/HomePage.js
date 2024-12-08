@@ -3,15 +3,12 @@ class HomePage {
     visit() {
       cy.visit('/');  
     }
-  
-
-    search(query) {
+  search(query) {
       cy.get('input[type="search"]')  
         .type(`${query}{enter}`);
     }
   
-    
-    validateText(expectedText) {
+     validateText(expectedText) {
       cy.contains(expectedText) 
         .should('exist'); 
       cy.end();
