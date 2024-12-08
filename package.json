@@ -1,0 +1,16 @@
+{
+  "name": "testedotcy",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "cypress:open": "cypress open"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
