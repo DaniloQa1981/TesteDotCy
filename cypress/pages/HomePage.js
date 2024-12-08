@@ -11,7 +11,7 @@ class HomePage {
      validateText(expectedText) {
       cy.contains(expectedText) 
         .should('exist'); 
-      cy.end();
+      
     }
     
   }
